@@ -39,14 +39,20 @@ public final class Constants {
     public static final String RESP_R = CSS_RED_A + "R. " + CSS_RED_Z;
     public static final String CE = BR + CSS_RED_A + "CÁNTICO EVANGÉLICO" + CSS_RED_Z + BRS + PRE_ANT;
     public static final String PRECES = BR + CSS_RED_A + "PRECES" + CSS_RED_Z + BRS;
-    public static final String PRECES_IL = BRS + CSS_RED_A + "Se pueden añadir algunas intenciones libres." + CSS_RED_Z + BRS;
+    public static final String PRECES_IL = BRS + CSS_RED_A + "Se pueden añadir algunas intenciones libres." + CSS_RED_Z+BRS;
+    public static final String PADRENUESTRO = BRS + CSS_RED_A + "PADRE NUESTRO" + CSS_RED_Z + BRS;
     public static final String OBIEN = BRS + CSS_RED_A + "O bien:" + CSS_RED_Z + BRS;
 
     public static final String PRECES_R = NBSP_SALMOS + CSS_RED_A + "– " + CSS_RED_Z;
     public static final String ORACION = BRS + CSS_RED_A + "ORACIÓN" + CSS_RED_Z + BRS;
     //Mensajes de error
     public static final String ERR_RESPONSORIO = CSS_RED_A + "¡ERROR! " + CSS_RED_Z + BR + "Hay un error en el responsorio de este día, " +
-            "por favor comunícalo al desarrolador a la dirección siguiente: " + "a.cedano@deiverbum.org";
+            "por favor comunícalo al desarrollador a la dirección siguiente: " + "a.cedano@deiverbum.org";
+
+    public static final String ERR_GENERAL = CSS_RED_A + "¡ERROR! " + CSS_RED_Z + BR + "Ha ocurrido un error. Es posible que " +
+            "la liturgia de hoy aún no haya sido introducida. Intenta más tarde. Si el error persiste te ruego que me lo " +
+            "comuniques a la dirección siguiente: "+CSS_RED_A+CSS_B_A+"padre.cedano@gmail.com " +CSS_RED_Z +CSS_B_Z+
+            "Gracias por la paciencia y espero resolverlo pronto.";
 
     private Constants() {
         // restrict instantiation
