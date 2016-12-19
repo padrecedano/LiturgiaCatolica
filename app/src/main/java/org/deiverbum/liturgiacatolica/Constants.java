@@ -5,7 +5,7 @@ package org.deiverbum.liturgiacatolica;
  */
 public final class Constants {
     public static final String HOY = "20160729";
-    public static final String OL_URL = "http://www.deiverbum.org/api/v1/h1.php?fecha=";
+    public static final String OL_URL = "http://deiverbum.org/api/beta/oficio/";
     public static final String LA_URL = "http://www.deiverbum.org/api/v1/h2.php?fecha=";
     public static final String HI1_URL = "http://www.deiverbum.org/api/v1/h31.php?fecha=";
     public static final String H4_URL = "http://www.deiverbum.org/api/v1/h4.php?fecha=";
@@ -53,6 +53,9 @@ public final class Constants {
             "la liturgia de hoy aún no haya sido introducida. Intenta más tarde. Si el error persiste te ruego que me lo " +
             "comuniques a la dirección siguiente: "+CSS_RED_A+CSS_B_A+"padre.cedano@gmail.com " +CSS_RED_Z +CSS_B_Z+
             "Gracias por la paciencia y espero resolverlo pronto.";
+
+    //Otros mensajes
+    public static final String PACIENCIA = "La paciencia todo lo alcanza. Por favor espere ...";
 
     private Constants() {
         // restrict instantiation
