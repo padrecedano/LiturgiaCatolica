@@ -6,9 +6,9 @@ package org.deiverbum.liturgiacatolica;
 public final class Constants {
     public static final String HOY = "20160729";
     public static final String OL_URL = "http://deiverbum.org/api/beta/oficio/";
-    public static final String LA_URL = "http://www.deiverbum.org/api/v1/h2.php?fecha=";
-    public static final String HI1_URL = "http://www.deiverbum.org/api/v1/h31.php?fecha=";
-    public static final String H4_URL = "http://www.deiverbum.org/api/v1/h4.php?fecha=";
+    public static final String LA_URL = "http://deiverbum.org/api/beta/laudes/";
+    public static final String HI1_URL = "http://www.deiverbum.org/api/beta/tercia/";
+    public static final String H4_URL = "http://www.deiverbum.org/api/beta/visperas/";
     public static final String CSS_RED_A = "<font color=\"#A52A2A\">";
     public static final String CSS_RED_Z = "</font>";
     public static final String OL_TITULO = "<h2>" + CSS_RED_A + "OFICIO DE LECTURAS" + CSS_RED_Z + "</h2>";
@@ -47,11 +47,12 @@ public final class Constants {
     public static final String ORACION = BRS + CSS_RED_A + "ORACIÓN" + CSS_RED_Z + BRS;
     //Mensajes de error
     public static final String ERR_RESPONSORIO = CSS_RED_A + "¡ERROR! " + CSS_RED_Z + BR + "Hay un error en el responsorio de este día, " +
-            "por favor comunícalo al desarrollador a la dirección siguiente: " + "a.cedano@deiverbum.org";
+            "por favor comunícalo al desarrollador a la dirección siguiente: " + "padre.cedano@gmail.com" + BRS;
 
-    public static final String ERR_GENERAL = CSS_RED_A + "¡ERROR! " + CSS_RED_Z + BR + "Ha ocurrido un error. Es posible que " +
+    public static final String ERR_GENERAL = CSS_RED_A + "¡ERROR! " + CSS_RED_Z + BR + "Lamentablemente ha ocurrido un error... " +
+            "«El que esté sin pecado que tire la primera piedra.» " + BRS + "Es posible que " +
             "la liturgia de hoy aún no haya sido introducida. Intenta más tarde. Si el error persiste te ruego que me lo " +
-            "comuniques a la dirección siguiente: "+CSS_RED_A+CSS_B_A+"padre.cedano@gmail.com " +CSS_RED_Z +CSS_B_Z+
+            "comuniques a la dirección siguiente: " + CSS_RED_A + CSS_B_A + "padre.cedano@gmail.com " + CSS_RED_Z + CSS_B_Z + BRS +
             "Gracias por la paciencia y espero resolverlo pronto.";
 
     //Otros mensajes
