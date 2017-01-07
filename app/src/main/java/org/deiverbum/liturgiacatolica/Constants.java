@@ -4,11 +4,20 @@ package org.deiverbum.liturgiacatolica;
  * Created by cedano on 25/7/16.
  */
 public final class Constants {
+    public static final int MY_DEFAULT_TIMEOUT = 15000;
+
     public static final String HOY = "20160729";
-    public static final String OL_URL = "http://deiverbum.org/api/beta/oficio/";
-    public static final String LA_URL = "http://deiverbum.org/api/beta/laudes/";
-    public static final String HI1_URL = "http://www.deiverbum.org/api/beta/tercia/";
-    public static final String H4_URL = "http://www.deiverbum.org/api/beta/visperas/";
+    public static final String URL_API = "http://deiverbum.org/api/beta/";
+
+    public static final String OL_URL = URL_API + "oficio/";
+    public static final String LA_URL = URL_API + "laudes/";
+    public static final String HI1_URL = URL_API + "tercia/";
+    public static final String H4_URL = URL_API + "visperas/";
+    public static final String URL_HOMILIAS = URL_API + "homilias/";
+    public static final String URL_EVANGELIO = URL_API + "evangelio/";
+
+    public static final String URL_SANTO = "http://www.deiverbum.org/api/beta/santo/";
+
     public static final String CSS_RED_A = "<font color=\"#A52A2A\">";
     public static final String CSS_RED_Z = "</font>";
     public static final String OL_TITULO = "<h2>" + CSS_RED_A + "OFICIO DE LECTURAS" + CSS_RED_Z + "</h2>";
@@ -48,6 +57,10 @@ public final class Constants {
     //Mensajes de error
     public static final String ERR_RESPONSORIO = CSS_RED_A + "¡ERROR! " + CSS_RED_Z + BR + "Hay un error en el responsorio de este día, " +
             "por favor comunícalo al desarrollador a la dirección siguiente: " + "padre.cedano@gmail.com" + BRS;
+
+    public static final String ERR_CONEXION = CSS_RED_A + "¡ERROR! " + CSS_RED_Z + BR + "No estás conectado a internet." + BR +
+            "En esta primera etapa de desarrollo la conexión a internet es necesaria para utilizar la aplicación. " +
+            "En un futuro, D.M., implementaremos la posiblidad de utilizar la aplicación sin conexión.";
 
     public static final String ERR_GENERAL = CSS_RED_A + "¡ERROR! " + CSS_RED_Z + BR + "Lamentablemente ha ocurrido un error... " +
             "«El que esté sin pecado que tire la primera piedra.» " + BRS + "Es posible que " +
