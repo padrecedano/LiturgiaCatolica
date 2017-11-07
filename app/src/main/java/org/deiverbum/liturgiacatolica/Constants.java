@@ -7,7 +7,7 @@ public final class Constants {
     public static final int MY_DEFAULT_TIMEOUT = 15000;
 
     public static final String HOY = "20160729";
-    public static final String URL_API = "http://deiverbum.org/api/beta/";
+    public static final String URL_API = "http://deiverbum.org/api/v1/";
 
     public static final String OL_URL = URL_API + "oficio/";
     public static final String LA_URL = URL_API + "laudes/";
@@ -19,8 +19,13 @@ public final class Constants {
     public static final String URL_SANTO = "http://www.deiverbum.org/api/beta/santo/";
 
     public static final String CSS_RED_A = "<font color=\"#A52A2A\">";
+    public static final String INVISIBLE_A = "<span style=\"width: 0.1px;\">";
+    public static final String INVISIBLE_Z = "</span>";
+    public static final String SEPARADOR = "≡";
+
+
     public static final String CSS_RED_Z = "</font>";
-    public static final String OL_TITULO = "<h2>" + CSS_RED_A + "OFICIO DE LECTURAS" + CSS_RED_Z + "</h2>";
+    public static final String OL_TITULO = "<h2>" + CSS_RED_A + "OFICIO DE LECTURA" + CSS_RED_Z + "</h2>";
     public static final String LA_TITULO = "<h2>" + CSS_RED_A + "LAUDES" + CSS_RED_Z + "</h2>";
     public static final String VI_TITULO = "<h2>" + CSS_RED_A + "VÍSPERAS" + CSS_RED_Z + "</h2>";
     public static final String HI_TITULO = "<h2>" + CSS_RED_A + "HORA INTERMEDIA" + CSS_RED_Z + "</h2>";
@@ -31,8 +36,14 @@ public final class Constants {
     public static final String CSS_SM_Z = "</small>";
     public static final String CSS_B_A = "<b>";
     public static final String CSS_B_Z = "</b>";
+    public static final String SALUDO_OFICIO = CSS_RED_A + "V." + CSS_RED_Z + " Señor, abre mis labios." + BR +
+            CSS_RED_A + "R." + CSS_RED_Z + " Y mi boca proclamará tu alabanza." + BRS;
+    public static final String INVITATORIO = "<h3>invitatorio</h3>";
     public static final String HIMNO = BRS + CSS_RED_A + "HIMNO" + CSS_RED_Z + BRS;
     public static final String SALMODIA = BRS + CSS_RED_A + "SALMODIA" + CSS_RED_Z + BRS;
+    public static final String FIN_SALMO = "Gloria al Padre, y al Hijo, y al Espíritu Santo." + BRS
+            + "Como era en el principio ahora y siempre, por los siglos de los siglos. Amén.";
+
     public static final String PRIMERA_LECTURA = BRS + CSS_RED_A + "PRIMERA LECTURA" + CSS_RED_Z + BRS;
     public static final String SEGUNDA_LECTURA = BRS + CSS_RED_A + "SEGUNDA LECTURA" + CSS_RED_Z + BRS;
     public static final String RESP_UPPER = CSS_RED_A + "RESPONSORIO" + CSS_RED_Z;
